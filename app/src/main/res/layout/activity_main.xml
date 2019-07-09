@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        />
+    <Button
+        android:id="@+id/bt_request1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="异步GET请求"
+        />
+    <Button
+        android:id="@+id/bt_request2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="同步GET请求"
+        />
+    <Button
+        android:id="@+id/bt_request3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST方式提交String"
+        />
+    <Button
+        android:id="@+id/bt_request4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST方式提交流"
+        />
+    <Button
+        android:id="@+id/bt_request5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST提交文件"
+        />
+    <Button
+        android:id="@+id/bt_request6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST方式提交表单"
+        />
+
+    <Button
+        android:id="@+id/bt_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进入下一页"
+        />
+</LinearLayout>
