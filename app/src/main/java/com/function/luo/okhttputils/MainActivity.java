@@ -29,6 +29,9 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 import okio.BufferedSink;
 
+/**
+ * OKHttp 基本用法
+ */
 public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.tv_message)
